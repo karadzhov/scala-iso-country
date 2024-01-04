@@ -4,7 +4,7 @@ trait CountryNameDE extends CountryName {
 
   def afghanistan: String = "Afghanistan"
 
-  def alandIslands: String = "Åland"
+  def alandIslands: String = "Ålandinseln"
 
   def albania: String = "Albanien"
 
@@ -18,7 +18,7 @@ trait CountryNameDE extends CountryName {
 
   def anguilla: String = "Anguilla"
 
-  def antarctica: String = "Antarktika"
+  def antarctica: String = "Antarktis"
 
   def antiguaAndBarbuda: String = "Antigua und Barbuda"
 
@@ -56,11 +56,9 @@ trait CountryNameDE extends CountryName {
 
   def bolivia: String = "Bolivien"
 
-  def bonaireSintEustatiusAndSaba: String = "Karibische Niederlande"
-
   def bosniaAndHerzegovina: String = "Bosnien und Herzegowina"
 
-  def botswana: String = "Botswana"
+  def botswana: String = "Botsuana"
 
   def bouvetIsland: String = "Bouvetinsel"
 
@@ -68,7 +66,9 @@ trait CountryNameDE extends CountryName {
 
   def britishIndianOceanTerritory: String = "Britisches Territorium im Indischen Ozean"
 
-  def bruneiDarussalam: String = "Brunei"
+  def britishVirginIslands: String = "Britische Jungferninseln"
+
+  def brunei: String = "Brunei Darussalam"
 
   def bulgaria: String = "Bulgarien"
 
@@ -76,15 +76,17 @@ trait CountryNameDE extends CountryName {
 
   def burundi: String = "Burundi"
 
-  def caboVerde: String = "Kap Verde"
-
   def cambodia: String = "Kambodscha"
 
   def cameroon: String = "Kamerun"
 
   def canada: String = "Kanada"
 
-  def caymanIslands: String = "Cayman Islands"
+  def capeVerde: String = "Cabo Verde"
+
+  def caribbeanNetherlands: String = "Karibische Niederlande"
+
+  def caymanIslands: String = "Kaimaninseln"
 
   def centralAfricanRepublic: String = "Zentralafrikanische Republik"
 
@@ -92,7 +94,7 @@ trait CountryNameDE extends CountryName {
 
   def chile: String = "Chile"
 
-  def china: String = "Volksrepublik China"
+  def china: String = "China"
 
   def christmasIsland: String = "Weihnachtsinsel"
 
@@ -102,15 +104,15 @@ trait CountryNameDE extends CountryName {
 
   def comoros: String = "Komoren"
 
-  def congo: String = "Republik Kongo"
+  def congoBrazzaville: String = "Kongo-Brazzaville"
 
-  def congoDemocraticRepublic: String = "Demokratische Republik Kongo"
+  def congoKinshasa: String = "Kongo-Kinshasa"
 
   def cookIslands: String = "Cookinseln"
 
   def costaRica: String = "Costa Rica"
 
-  def coteDivoire: String = "Elfenbeinküste"
+  def coteDivoire: String = "Côte d’Ivoire"
 
   def croatia: String = "Kroatien"
 
@@ -186,7 +188,7 @@ trait CountryNameDE extends CountryName {
 
   def guatemala: String = "Guatemala"
 
-  def guernsey: String = "Bailiwick of Guernsey"
+  def guernsey: String = "Guernsey"
 
   def guinea: String = "Guinea"
 
@@ -196,13 +198,11 @@ trait CountryNameDE extends CountryName {
 
   def haiti: String = "Haiti"
 
-  def heardIslandAndMcDonaldIslands: String = "Heard und McDonaldinseln"
-
-  def holySee: String = "Vatikanstadt"
+  def heardAndMcDonaldIslands: String = "Heard und McDonaldinseln"
 
   def honduras: String = "Honduras"
 
-  def hongKong: String = "Hongkong"
+  def hongKong: String = "Sonderverwaltungsregion Hongkong"
 
   def hungary: String = "Ungarn"
 
@@ -238,15 +238,11 @@ trait CountryNameDE extends CountryName {
 
   def kiribati: String = "Kiribati"
 
-  def koreaDemocraticPeoplesRepublic: String = "Nordkorea"
-
-  def koreaRepublic: String = "Südkorea"
-
   def kuwait: String = "Kuwait"
 
   def kyrgyzstan: String = "Kirgisistan"
 
-  def laoPeoplesDemocraticRepublic: String = "Laos"
+  def laos: String = "Laos"
 
   def latvia: String = "Lettland"
 
@@ -264,7 +260,7 @@ trait CountryNameDE extends CountryName {
 
   def luxembourg: String = "Luxemburg"
 
-  def macao: String = "Macau"
+  def macao: String = "Sonderverwaltungsregion Macau"
 
   def madagascar: String = "Madagaskar"
 
@@ -292,7 +288,7 @@ trait CountryNameDE extends CountryName {
 
   def micronesia: String = "Mikronesien"
 
-  def moldova: String = "Moldau"
+  def moldova: String = "Republik Moldau"
 
   def monaco: String = "Monaco"
 
@@ -330,6 +326,8 @@ trait CountryNameDE extends CountryName {
 
   def norfolkIsland: String = "Norfolkinsel"
 
+  def northKorea: String = "Nordkorea"
+
   def northMacedonia: String = "Nordmazedonien"
 
   def northernMarianaIslands: String = "Nördliche Marianen"
@@ -342,7 +340,7 @@ trait CountryNameDE extends CountryName {
 
   def palau: String = "Palau"
 
-  def palestine: String = "Staat Palästina"
+  def palestinianTerritories: String = "Palästinensische Autonomiegebiete"
 
   def panama: String = "Panama"
 
@@ -354,7 +352,7 @@ trait CountryNameDE extends CountryName {
 
   def philippines: String = "Philippinen"
 
-  def pitcairn: String = "Pitcairninseln"
+  def pitcairnIslands: String = "Pitcairninseln"
 
   def poland: String = "Polen"
 
@@ -368,21 +366,21 @@ trait CountryNameDE extends CountryName {
 
   def romania: String = "Rumänien"
 
-  def russianFederation: String = "Russland"
+  def russia: String = "Russland"
 
   def rwanda: String = "Ruanda"
 
-  def saintBarthelemy: String = "Saint-Barthélemy"
+  def saintBarthelemy: String = "St. Barthélemy"
 
-  def saintHelenaAscensionAndTristanDaCunha: String = "St. Helena, Ascension und Tristan da Cunha"
+  def saintHelena: String = "St. Helena"
 
   def saintKittsAndNevis: String = "St. Kitts und Nevis"
 
   def saintLucia: String = "St. Lucia"
 
-  def saintMartin: String = "Saint-Martin"
+  def saintMartin: String = "St. Martin"
 
-  def saintPierreAndMiquelon: String = "Saint-Pierre und Miquelon"
+  def saintPierreAndMiquelon: String = "St. Pierre und Miquelon"
 
   def saintVincentAndTheGrenadines: String = "St. Vincent und die Grenadinen"
 
@@ -416,7 +414,9 @@ trait CountryNameDE extends CountryName {
 
   def southAfrica: String = "Südafrika"
 
-  def southGeorgiaAndTheSouthSandwichIslands: String = "Südgeorgien und die Südlichen Sandwichinseln"
+  def southGeorgiaAndSouthSandwichIslands: String = "Südgeorgien und die Südlichen Sandwichinseln"
+
+  def southKorea: String = "Südkorea"
 
   def southSudan: String = "Südsudan"
 
@@ -428,13 +428,13 @@ trait CountryNameDE extends CountryName {
 
   def suriname: String = "Suriname"
 
-  def svalbardAndJanMayen: String = "Svalbard und Jan Mayen"
+  def svalbardAndJanMayen: String = "Spitzbergen und Jan Mayen"
 
   def sweden: String = "Schweden"
 
   def switzerland: String = "Schweiz"
 
-  def syrianArabRepublic: String = "Syrien"
+  def syria: String = "Syrien"
 
   def taiwan: String = "Taiwan"
 
@@ -444,7 +444,7 @@ trait CountryNameDE extends CountryName {
 
   def thailand: String = "Thailand"
 
-  def timorLeste: String = "Osttimor"
+  def timorLeste: String = "Timor-Leste"
 
   def togo: String = "Togo"
 
@@ -474,7 +474,9 @@ trait CountryNameDE extends CountryName {
 
   def unitedStates: String = "Vereinigte Staaten"
 
-  def unitedStatesMinorOutlyingIslands: String = "Kleinere abgelegene Inseln der Vereinigten Staaten"
+  def unitedStatesOutlyingIslands: String = "Amerikanische Überseeinseln"
+
+  def unitedStatesVirginIslands: String = "Amerikanische Jungferninseln"
 
   def uruguay: String = "Uruguay"
 
@@ -482,13 +484,11 @@ trait CountryNameDE extends CountryName {
 
   def vanuatu: String = "Vanuatu"
 
+  def vaticanCity: String = "Vatikanstadt"
+
   def venezuela: String = "Venezuela"
 
   def vietnam: String = "Vietnam"
-
-  def virginIslandsBritish: String = "Britische Jungferninseln"
-
-  def virginIslandsUS: String = "Amerikanische Jungferninseln"
 
   def wallisAndFutuna: String = "Wallis und Futuna"
 
