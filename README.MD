@@ -8,22 +8,22 @@ To get started with SBT add the following to your build.sbt file:
 
 #### Enum without translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-country-core" % "0.1.0"
+libraryDependencies += "com.karadzhov" %% "scala-iso-country-core" % "0.2.0"
 ```
 
 #### Enum + English translations
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-country-i18n-en" % "0.1.0"
+libraryDependencies += "com.karadzhov" %% "scala-iso-country-i18n-en" % "0.2.0"
 ```
 
 #### Enum + German translations 
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-country-i18n-de" % "0.1.0"
+libraryDependencies += "com.karadzhov" %% "scala-iso-country-i18n-de" % "0.2.0"
 ```
 
 #### Enum + Bulgarian translations 
 ``` scala   
-libraryDependencies += "com.karadzhov" %% "scala-iso-country-i18n-bg" % "0.1.0"
+libraryDependencies += "com.karadzhov" %% "scala-iso-country-i18n-bg" % "0.2.0"
 ```
 
 ## Sample
