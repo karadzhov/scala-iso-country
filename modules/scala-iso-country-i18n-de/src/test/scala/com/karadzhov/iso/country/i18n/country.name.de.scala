@@ -14,4 +14,11 @@ class CountryNameDESuite extends AnyFlatSpec with TypeCheckedTripleEquals {
     assert(GermanLanguagePack.countryName(Country.Cambodia) === "Kambodscha")
   }
 
+  // Scala Native throws exception during linking
+  // "country names" should "be aligned with the JVM country names" in {
+  //   Country.values.foreach(cc =>
+  //     assert(GermanLanguagePack.countryName(cc) === new Locale("", cc.entryName).getDisplayCountry(new Locale("de")))
+  //   )
+  // }
+
 }

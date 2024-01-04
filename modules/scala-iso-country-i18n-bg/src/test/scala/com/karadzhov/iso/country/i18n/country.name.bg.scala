@@ -14,4 +14,11 @@ class CountryNameBGSuite extends AnyFlatSpec with TypeCheckedTripleEquals {
     assert(BulgarianLanguagePack.countryName(Country.Cambodia) === "Камбоджа")
   }
 
+  // Scala Native throws exception during linking
+  // "country names" should "be aligned with the JVM country names" in {
+  //   Country.values.foreach(cc =>
+  //     assert(BulgarianLanguagePack.countryName(cc) === new Locale("", cc.entryName).getDisplayCountry(new Locale("bg")))
+  //   )
+  // }
+
 }

@@ -7,255 +7,255 @@ import com.karadzhov.iso.country.Country.{Nauru => NauruCountry}
 trait CountryName {
 
   def countryName(a: Country): String = a match {
-    case Afghanistan                            => afghanistan
-    case AlandIslands                           => alandIslands
-    case Albania                                => albania
-    case Algeria                                => algeria
-    case AmericanSamoa                          => americanSamoa
-    case Andorra                                => andorra
-    case Angola                                 => angola
-    case Anguilla                               => anguilla
-    case Antarctica                             => antarctica
-    case AntiguaAndBarbuda                      => antiguaAndBarbuda
-    case Argentina                              => argentina
-    case Armenia                                => armenia
-    case Aruba                                  => aruba
-    case Australia                              => australia
-    case Austria                                => austria
-    case Azerbaijan                             => azerbaijan
-    case Bahamas                                => bahamas
-    case Bahrain                                => bahrain
-    case Bangladesh                             => bangladesh
-    case Barbados                               => barbados
-    case Belarus                                => belarus
-    case Belgium                                => belgium
-    case Belize                                 => belize
-    case Benin                                  => benin
-    case Bermuda                                => bermuda
-    case Bhutan                                 => bhutan
-    case Bolivia                                => bolivia
-    case BonaireSintEustatiusAndSaba            => bonaireSintEustatiusAndSaba
-    case BosniaAndHerzegovina                   => bosniaAndHerzegovina
-    case Botswana                               => botswana
-    case BouvetIsland                           => bouvetIsland
-    case Brazil                                 => brazil
-    case BritishIndianOceanTerritory            => britishIndianOceanTerritory
-    case BruneiDarussalam                       => bruneiDarussalam
-    case Bulgaria                               => bulgaria
-    case BurkinaFaso                            => burkinaFaso
-    case Burundi                                => burundi
-    case CaboVerde                              => caboVerde
-    case Cambodia                               => cambodia
-    case Cameroon                               => cameroon
-    case Canada                                 => canada
-    case CaymanIslands                          => caymanIslands
-    case CentralAfricanRepublic                 => centralAfricanRepublic
-    case Chad                                   => chad
-    case Chile                                  => chile
-    case China                                  => china
-    case ChristmasIsland                        => christmasIsland
-    case CocosIslands                           => cocosIslands
-    case Colombia                               => colombia
-    case Comoros                                => comoros
-    case Congo                                  => congo
-    case CongoDemocraticRepublic                => congoDemocraticRepublic
-    case CookIslands                            => cookIslands
-    case CostaRica                              => costaRica
-    case CoteDivoire                            => coteDivoire
-    case Croatia                                => croatia
-    case Cuba                                   => cuba
-    case Curacao                                => curacao
-    case Cyprus                                 => cyprus
-    case Czechia                                => czechia
-    case Denmark                                => denmark
-    case Djibouti                               => djibouti
-    case Dominica                               => dominica
-    case DominicanRepublic                      => dominicanRepublic
-    case Ecuador                                => ecuador
-    case Egypt                                  => egypt
-    case ElSalvador                             => elSalvador
-    case EquatorialGuinea                       => equatorialGuinea
-    case Eritrea                                => eritrea
-    case Estonia                                => estonia
-    case Eswatini                               => eswatini
-    case Ethiopia                               => ethiopia
-    case FalklandIslands                        => falklandIslands
-    case FaroeIslands                           => faroeIslands
-    case Fiji                                   => fiji
-    case Finland                                => finland
-    case France                                 => france
-    case FrenchGuiana                           => frenchGuiana
-    case FrenchPolynesia                        => frenchPolynesia
-    case FrenchSouthernTerritories              => frenchSouthernTerritories
-    case Gabon                                  => gabon
-    case Gambia                                 => gambia
-    case Georgia                                => georgia
-    case Germany                                => germany
-    case Ghana                                  => ghana
-    case Gibraltar                              => gibraltar
-    case Greece                                 => greece
-    case Greenland                              => greenland
-    case Grenada                                => grenada
-    case Guadeloupe                             => guadeloupe
-    case Guam                                   => guam
-    case Guatemala                              => guatemala
-    case Guernsey                               => guernsey
-    case Guinea                                 => guinea
-    case GuineaBissau                           => guineaBissau
-    case Guyana                                 => guyana
-    case Haiti                                  => haiti
-    case HeardIslandAndMcDonaldIslands          => heardIslandAndMcDonaldIslands
-    case HolySee                                => holySee
-    case Honduras                               => honduras
-    case HongKong                               => hongKong
-    case Hungary                                => hungary
-    case Iceland                                => iceland
-    case India                                  => india
-    case Indonesia                              => indonesia
-    case Iran                                   => iran
-    case Iraq                                   => iraq
-    case Ireland                                => ireland
-    case IsleOfMan                              => isleOfMan
-    case Israel                                 => israel
-    case Italy                                  => italy
-    case Jamaica                                => jamaica
-    case Japan                                  => japan
-    case Jersey                                 => jersey
-    case Jordan                                 => jordan
-    case Kazakhstan                             => kazakhstan
-    case Kenya                                  => kenya
-    case Kiribati                               => kiribati
-    case KoreaDemocraticPeoplesRepublic         => koreaDemocraticPeoplesRepublic
-    case KoreaRepublic                          => koreaRepublic
-    case Kuwait                                 => kuwait
-    case Kyrgyzstan                             => kyrgyzstan
-    case LaoPeoplesDemocraticRepublic           => laoPeoplesDemocraticRepublic
-    case Latvia                                 => latvia
-    case Lebanon                                => lebanon
-    case Lesotho                                => lesotho
-    case Liberia                                => liberia
-    case Libya                                  => libya
-    case Liechtenstein                          => liechtenstein
-    case Lithuania                              => lithuania
-    case Luxembourg                             => luxembourg
-    case Macao                                  => macao
-    case Madagascar                             => madagascar
-    case Malawi                                 => malawi
-    case Malaysia                               => malaysia
-    case Maldives                               => maldives
-    case Mali                                   => mali
-    case Malta                                  => malta
-    case MarshallIslands                        => marshallIslands
-    case Martinique                             => martinique
-    case Mauritania                             => mauritania
-    case Mauritius                              => mauritius
-    case Mayotte                                => mayotte
-    case Mexico                                 => mexico
-    case Micronesia                             => micronesia
-    case Moldova                                => moldova
-    case Monaco                                 => monaco
-    case Mongolia                               => mongolia
-    case Montenegro                             => montenegro
-    case Montserrat                             => montserrat
-    case Morocco                                => morocco
-    case Mozambique                             => mozambique
-    case Myanmar                                => myanmar
-    case Namibia                                => namibia
-    case NauruCountry                           => nauruCountry
-    case Nepal                                  => nepal
-    case Netherlands                            => netherlands
-    case NewCaledonia                           => newCaledonia
-    case NewZealand                             => newZealand
-    case Nicaragua                              => nicaragua
-    case Niger                                  => niger
-    case Nigeria                                => nigeria
-    case Niue                                   => niue
-    case NorfolkIsland                          => norfolkIsland
-    case NorthMacedonia                         => northMacedonia
-    case NorthernMarianaIslands                 => northernMarianaIslands
-    case Norway                                 => norway
-    case Oman                                   => oman
-    case Pakistan                               => pakistan
-    case Palau                                  => palau
-    case Palestine                              => palestine
-    case Panama                                 => panama
-    case PapuaNewGuinea                         => papuaNewGuinea
-    case Paraguay                               => paraguay
-    case Peru                                   => peru
-    case Philippines                            => philippines
-    case Pitcairn                               => pitcairn
-    case Poland                                 => poland
-    case Portugal                               => portugal
-    case PuertoRico                             => puertoRico
-    case Qatar                                  => qatar
-    case Reunion                                => reunion
-    case Romania                                => romania
-    case RussianFederation                      => russianFederation
-    case Rwanda                                 => rwanda
-    case SaintBarthelemy                        => saintBarthelemy
-    case SaintHelenaAscensionAndTristanDaCunha  => saintHelenaAscensionAndTristanDaCunha
-    case SaintKittsAndNevis                     => saintKittsAndNevis
-    case SaintLucia                             => saintLucia
-    case SaintMartin                            => saintMartin
-    case SaintPierreAndMiquelon                 => saintPierreAndMiquelon
-    case SaintVincentAndTheGrenadines           => saintVincentAndTheGrenadines
-    case Samoa                                  => samoa
-    case SanMarino                              => sanMarino
-    case SaoTomeAndPrincipe                     => saoTomeAndPrincipe
-    case SaudiArabia                            => saudiArabia
-    case Senegal                                => senegal
-    case Serbia                                 => serbia
-    case Seychelles                             => seychelles
-    case SierraLeone                            => sierraLeone
-    case Singapore                              => singapore
-    case SintMaarten                            => sintMaarten
-    case Slovakia                               => slovakia
-    case Slovenia                               => slovenia
-    case SolomonIslands                         => solomonIslands
-    case Somalia                                => somalia
-    case SouthAfrica                            => southAfrica
-    case SouthGeorgiaAndTheSouthSandwichIslands => southGeorgiaAndTheSouthSandwichIslands
-    case SouthSudan                             => southSudan
-    case Spain                                  => spain
-    case SriLanka                               => sriLanka
-    case Sudan                                  => sudan
-    case Suriname                               => suriname
-    case SvalbardAndJanMayen                    => svalbardAndJanMayen
-    case Sweden                                 => sweden
-    case Switzerland                            => switzerland
-    case SyrianArabRepublic                     => syrianArabRepublic
-    case Taiwan                                 => taiwan
-    case Tajikistan                             => tajikistan
-    case Tanzania                               => tanzania
-    case Thailand                               => thailand
-    case TimorLeste                             => timorLeste
-    case Togo                                   => togo
-    case Tokelau                                => tokelau
-    case Tonga                                  => tonga
-    case TrinidadAndTobago                      => trinidadAndTobago
-    case Tunisia                                => tunisia
-    case Turkey                                 => turkey
-    case Turkmenistan                           => turkmenistan
-    case TurksAndCaicosIslands                  => turksAndCaicosIslands
-    case Tuvalu                                 => tuvalu
-    case Uganda                                 => uganda
-    case Ukraine                                => ukraine
-    case UnitedArabEmirates                     => unitedArabEmirates
-    case UnitedKingdom                          => unitedKingdom
-    case UnitedStates                           => unitedStates
-    case UnitedStatesMinorOutlyingIslands       => unitedStatesMinorOutlyingIslands
-    case Uruguay                                => uruguay
-    case Uzbekistan                             => uzbekistan
-    case Vanuatu                                => vanuatu
-    case Venezuela                              => venezuela
-    case Vietnam                                => vietnam
-    case VirginIslandsBritish                   => virginIslandsBritish
-    case VirginIslandsUS                        => virginIslandsUS
-    case WallisAndFutuna                        => wallisAndFutuna
-    case WesternSahara                          => westernSahara
-    case Yemen                                  => yemen
-    case Zambia                                 => zambia
-    case Zimbabwe                               => zimbabwe
+    case Afghanistan                         => afghanistan
+    case AlandIslands                        => alandIslands
+    case Albania                             => albania
+    case Algeria                             => algeria
+    case AmericanSamoa                       => americanSamoa
+    case Andorra                             => andorra
+    case Angola                              => angola
+    case Anguilla                            => anguilla
+    case Antarctica                          => antarctica
+    case AntiguaAndBarbuda                   => antiguaAndBarbuda
+    case Argentina                           => argentina
+    case Armenia                             => armenia
+    case Aruba                               => aruba
+    case Australia                           => australia
+    case Austria                             => austria
+    case Azerbaijan                          => azerbaijan
+    case Bahamas                             => bahamas
+    case Bahrain                             => bahrain
+    case Bangladesh                          => bangladesh
+    case Barbados                            => barbados
+    case Belarus                             => belarus
+    case Belgium                             => belgium
+    case Belize                              => belize
+    case Benin                               => benin
+    case Bermuda                             => bermuda
+    case Bhutan                              => bhutan
+    case Bolivia                             => bolivia
+    case BosniaAndHerzegovina                => bosniaAndHerzegovina
+    case Botswana                            => botswana
+    case BouvetIsland                        => bouvetIsland
+    case Brazil                              => brazil
+    case BritishIndianOceanTerritory         => britishIndianOceanTerritory
+    case BritishVirginIslands                => britishVirginIslands
+    case Brunei                              => brunei
+    case Bulgaria                            => bulgaria
+    case BurkinaFaso                         => burkinaFaso
+    case Burundi                             => burundi
+    case Cambodia                            => cambodia
+    case Cameroon                            => cameroon
+    case Canada                              => canada
+    case CapeVerde                           => capeVerde
+    case CaribbeanNetherlands                => caribbeanNetherlands
+    case CaymanIslands                       => caymanIslands
+    case CentralAfricanRepublic              => centralAfricanRepublic
+    case Chad                                => chad
+    case Chile                               => chile
+    case China                               => china
+    case ChristmasIsland                     => christmasIsland
+    case CocosIslands                        => cocosIslands
+    case Colombia                            => colombia
+    case Comoros                             => comoros
+    case CongoBrazzaville                    => congoBrazzaville
+    case CongoKinshasa                       => congoKinshasa
+    case CookIslands                         => cookIslands
+    case CostaRica                           => costaRica
+    case CoteDivoire                         => coteDivoire
+    case Croatia                             => croatia
+    case Cuba                                => cuba
+    case Curacao                             => curacao
+    case Cyprus                              => cyprus
+    case Czechia                             => czechia
+    case Denmark                             => denmark
+    case Djibouti                            => djibouti
+    case Dominica                            => dominica
+    case DominicanRepublic                   => dominicanRepublic
+    case Ecuador                             => ecuador
+    case Egypt                               => egypt
+    case ElSalvador                          => elSalvador
+    case EquatorialGuinea                    => equatorialGuinea
+    case Eritrea                             => eritrea
+    case Estonia                             => estonia
+    case Eswatini                            => eswatini
+    case Ethiopia                            => ethiopia
+    case FalklandIslands                     => falklandIslands
+    case FaroeIslands                        => faroeIslands
+    case Fiji                                => fiji
+    case Finland                             => finland
+    case France                              => france
+    case FrenchGuiana                        => frenchGuiana
+    case FrenchPolynesia                     => frenchPolynesia
+    case FrenchSouthernTerritories           => frenchSouthernTerritories
+    case Gabon                               => gabon
+    case Gambia                              => gambia
+    case Georgia                             => georgia
+    case Germany                             => germany
+    case Ghana                               => ghana
+    case Gibraltar                           => gibraltar
+    case Greece                              => greece
+    case Greenland                           => greenland
+    case Grenada                             => grenada
+    case Guadeloupe                          => guadeloupe
+    case Guam                                => guam
+    case Guatemala                           => guatemala
+    case Guernsey                            => guernsey
+    case Guinea                              => guinea
+    case GuineaBissau                        => guineaBissau
+    case Guyana                              => guyana
+    case Haiti                               => haiti
+    case HeardAndMcDonaldIslands             => heardAndMcDonaldIslands
+    case Honduras                            => honduras
+    case HongKong                            => hongKong
+    case Hungary                             => hungary
+    case Iceland                             => iceland
+    case India                               => india
+    case Indonesia                           => indonesia
+    case Iran                                => iran
+    case Iraq                                => iraq
+    case Ireland                             => ireland
+    case IsleOfMan                           => isleOfMan
+    case Israel                              => israel
+    case Italy                               => italy
+    case Jamaica                             => jamaica
+    case Japan                               => japan
+    case Jersey                              => jersey
+    case Jordan                              => jordan
+    case Kazakhstan                          => kazakhstan
+    case Kenya                               => kenya
+    case Kiribati                            => kiribati
+    case Kuwait                              => kuwait
+    case Kyrgyzstan                          => kyrgyzstan
+    case Laos                                => laos
+    case Latvia                              => latvia
+    case Lebanon                             => lebanon
+    case Lesotho                             => lesotho
+    case Liberia                             => liberia
+    case Libya                               => libya
+    case Liechtenstein                       => liechtenstein
+    case Lithuania                           => lithuania
+    case Luxembourg                          => luxembourg
+    case Macao                               => macao
+    case Madagascar                          => madagascar
+    case Malawi                              => malawi
+    case Malaysia                            => malaysia
+    case Maldives                            => maldives
+    case Mali                                => mali
+    case Malta                               => malta
+    case MarshallIslands                     => marshallIslands
+    case Martinique                          => martinique
+    case Mauritania                          => mauritania
+    case Mauritius                           => mauritius
+    case Mayotte                             => mayotte
+    case Mexico                              => mexico
+    case Micronesia                          => micronesia
+    case Moldova                             => moldova
+    case Monaco                              => monaco
+    case Mongolia                            => mongolia
+    case Montenegro                          => montenegro
+    case Montserrat                          => montserrat
+    case Morocco                             => morocco
+    case Mozambique                          => mozambique
+    case Myanmar                             => myanmar
+    case Namibia                             => namibia
+    case NauruCountry                        => nauruCountry
+    case Nepal                               => nepal
+    case Netherlands                         => netherlands
+    case NewCaledonia                        => newCaledonia
+    case NewZealand                          => newZealand
+    case Nicaragua                           => nicaragua
+    case Niger                               => niger
+    case Nigeria                             => nigeria
+    case Niue                                => niue
+    case NorfolkIsland                       => norfolkIsland
+    case NorthKorea                          => northKorea
+    case NorthMacedonia                      => northMacedonia
+    case NorthernMarianaIslands              => northernMarianaIslands
+    case Norway                              => norway
+    case Oman                                => oman
+    case Pakistan                            => pakistan
+    case Palau                               => palau
+    case PalestinianTerritories              => palestinianTerritories
+    case Panama                              => panama
+    case PapuaNewGuinea                      => papuaNewGuinea
+    case Paraguay                            => paraguay
+    case Peru                                => peru
+    case Philippines                         => philippines
+    case PitcairnIslands                     => pitcairnIslands
+    case Poland                              => poland
+    case Portugal                            => portugal
+    case PuertoRico                          => puertoRico
+    case Qatar                               => qatar
+    case Reunion                             => reunion
+    case Romania                             => romania
+    case Russia                              => russia
+    case Rwanda                              => rwanda
+    case SaintBarthelemy                     => saintBarthelemy
+    case SaintHelena                         => saintHelena
+    case SaintKittsAndNevis                  => saintKittsAndNevis
+    case SaintLucia                          => saintLucia
+    case SaintMartin                         => saintMartin
+    case SaintPierreAndMiquelon              => saintPierreAndMiquelon
+    case SaintVincentAndTheGrenadines        => saintVincentAndTheGrenadines
+    case Samoa                               => samoa
+    case SanMarino                           => sanMarino
+    case SaoTomeAndPrincipe                  => saoTomeAndPrincipe
+    case SaudiArabia                         => saudiArabia
+    case Senegal                             => senegal
+    case Serbia                              => serbia
+    case Seychelles                          => seychelles
+    case SierraLeone                         => sierraLeone
+    case Singapore                           => singapore
+    case SintMaarten                         => sintMaarten
+    case Slovakia                            => slovakia
+    case Slovenia                            => slovenia
+    case SolomonIslands                      => solomonIslands
+    case Somalia                             => somalia
+    case SouthAfrica                         => southAfrica
+    case SouthGeorgiaAndSouthSandwichIslands => southGeorgiaAndSouthSandwichIslands
+    case SouthKorea                          => southKorea
+    case SouthSudan                          => southSudan
+    case Spain                               => spain
+    case SriLanka                            => sriLanka
+    case Sudan                               => sudan
+    case Suriname                            => suriname
+    case SvalbardAndJanMayen                 => svalbardAndJanMayen
+    case Sweden                              => sweden
+    case Switzerland                         => switzerland
+    case Syria                               => syria
+    case Taiwan                              => taiwan
+    case Tajikistan                          => tajikistan
+    case Tanzania                            => tanzania
+    case Thailand                            => thailand
+    case TimorLeste                          => timorLeste
+    case Togo                                => togo
+    case Tokelau                             => tokelau
+    case Tonga                               => tonga
+    case TrinidadAndTobago                   => trinidadAndTobago
+    case Tunisia                             => tunisia
+    case Turkey                              => turkey
+    case Turkmenistan                        => turkmenistan
+    case TurksAndCaicosIslands               => turksAndCaicosIslands
+    case Tuvalu                              => tuvalu
+    case Uganda                              => uganda
+    case Ukraine                             => ukraine
+    case UnitedArabEmirates                  => unitedArabEmirates
+    case UnitedKingdom                       => unitedKingdom
+    case UnitedStates                        => unitedStates
+    case UnitedStatesOutlyingIslands         => unitedStatesOutlyingIslands
+    case UnitedStatesVirginIslands           => unitedStatesVirginIslands
+    case Uruguay                             => uruguay
+    case Uzbekistan                          => uzbekistan
+    case Vanuatu                             => vanuatu
+    case VaticanCity                         => vaticanCity
+    case Venezuela                           => venezuela
+    case Vietnam                             => vietnam
+    case WallisAndFutuna                     => wallisAndFutuna
+    case WesternSahara                       => westernSahara
+    case Yemen                               => yemen
+    case Zambia                              => zambia
+    case Zimbabwe                            => zimbabwe
   }
 
   def afghanistan: String
@@ -312,8 +312,6 @@ trait CountryName {
 
   def bolivia: String
 
-  def bonaireSintEustatiusAndSaba: String
-
   def bosniaAndHerzegovina: String
 
   def botswana: String
@@ -324,7 +322,9 @@ trait CountryName {
 
   def britishIndianOceanTerritory: String
 
-  def bruneiDarussalam: String
+  def britishVirginIslands: String
+
+  def brunei: String
 
   def bulgaria: String
 
@@ -332,13 +332,15 @@ trait CountryName {
 
   def burundi: String
 
-  def caboVerde: String
-
   def cambodia: String
 
   def cameroon: String
 
   def canada: String
+
+  def capeVerde: String
+
+  def caribbeanNetherlands: String
 
   def caymanIslands: String
 
@@ -358,9 +360,9 @@ trait CountryName {
 
   def comoros: String
 
-  def congo: String
+  def congoBrazzaville: String
 
-  def congoDemocraticRepublic: String
+  def congoKinshasa: String
 
   def cookIslands: String
 
@@ -452,9 +454,7 @@ trait CountryName {
 
   def haiti: String
 
-  def heardIslandAndMcDonaldIslands: String
-
-  def holySee: String
+  def heardAndMcDonaldIslands: String
 
   def honduras: String
 
@@ -494,15 +494,11 @@ trait CountryName {
 
   def kiribati: String
 
-  def koreaDemocraticPeoplesRepublic: String
-
-  def koreaRepublic: String
-
   def kuwait: String
 
   def kyrgyzstan: String
 
-  def laoPeoplesDemocraticRepublic: String
+  def laos: String
 
   def latvia: String
 
@@ -586,6 +582,8 @@ trait CountryName {
 
   def norfolkIsland: String
 
+  def northKorea: String
+
   def northMacedonia: String
 
   def northernMarianaIslands: String
@@ -598,7 +596,7 @@ trait CountryName {
 
   def palau: String
 
-  def palestine: String
+  def palestinianTerritories: String
 
   def panama: String
 
@@ -610,7 +608,7 @@ trait CountryName {
 
   def philippines: String
 
-  def pitcairn: String
+  def pitcairnIslands: String
 
   def poland: String
 
@@ -624,13 +622,13 @@ trait CountryName {
 
   def romania: String
 
-  def russianFederation: String
+  def russia: String
 
   def rwanda: String
 
   def saintBarthelemy: String
 
-  def saintHelenaAscensionAndTristanDaCunha: String
+  def saintHelena: String
 
   def saintKittsAndNevis: String
 
@@ -672,7 +670,9 @@ trait CountryName {
 
   def southAfrica: String
 
-  def southGeorgiaAndTheSouthSandwichIslands: String
+  def southGeorgiaAndSouthSandwichIslands: String
+
+  def southKorea: String
 
   def southSudan: String
 
@@ -690,7 +690,7 @@ trait CountryName {
 
   def switzerland: String
 
-  def syrianArabRepublic: String
+  def syria: String
 
   def taiwan: String
 
@@ -730,7 +730,9 @@ trait CountryName {
 
   def unitedStates: String
 
-  def unitedStatesMinorOutlyingIslands: String
+  def unitedStatesOutlyingIslands: String
+
+  def unitedStatesVirginIslands: String
 
   def uruguay: String
 
@@ -738,13 +740,11 @@ trait CountryName {
 
   def vanuatu: String
 
+  def vaticanCity: String
+
   def venezuela: String
 
   def vietnam: String
-
-  def virginIslandsBritish: String
-
-  def virginIslandsUS: String
 
   def wallisAndFutuna: String
 
