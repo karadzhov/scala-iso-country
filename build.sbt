@@ -44,15 +44,45 @@ lazy val root = project
     `scala-iso-country-i18n-core`.js,
     `scala-iso-country-i18n-core`.jvm,
     `scala-iso-country-i18n-core`.native,
+    `scala-iso-country-i18n-ar`.js,
+    `scala-iso-country-i18n-ar`.jvm,
+    `scala-iso-country-i18n-ar`.native,
     `scala-iso-country-i18n-bg`.js,
     `scala-iso-country-i18n-bg`.jvm,
     `scala-iso-country-i18n-bg`.native,
+    `scala-iso-country-i18n-cs`.js,
+    `scala-iso-country-i18n-cs`.jvm,
+    `scala-iso-country-i18n-cs`.native,
     `scala-iso-country-i18n-en`.js,
     `scala-iso-country-i18n-en`.jvm,
     `scala-iso-country-i18n-en`.native,
     `scala-iso-country-i18n-de`.js,
     `scala-iso-country-i18n-de`.jvm,
-    `scala-iso-country-i18n-de`.native
+    `scala-iso-country-i18n-de`.native,
+    `scala-iso-country-i18n-es`.js,
+    `scala-iso-country-i18n-es`.jvm,
+    `scala-iso-country-i18n-es`.native,
+    `scala-iso-country-i18n-fr`.js,
+    `scala-iso-country-i18n-fr`.jvm,
+    `scala-iso-country-i18n-fr`.native,
+    `scala-iso-country-i18n-hi`.js,
+    `scala-iso-country-i18n-hi`.jvm,
+    `scala-iso-country-i18n-hi`.native,
+    `scala-iso-country-i18n-it`.js,
+    `scala-iso-country-i18n-it`.jvm,
+    `scala-iso-country-i18n-it`.native,
+    `scala-iso-country-i18n-pl`.js,
+    `scala-iso-country-i18n-pl`.jvm,
+    `scala-iso-country-i18n-pl`.native,
+    `scala-iso-country-i18n-pt`.js,
+    `scala-iso-country-i18n-pt`.jvm,
+    `scala-iso-country-i18n-pt`.native,
+    `scala-iso-country-i18n-ru`.js,
+    `scala-iso-country-i18n-ru`.jvm,
+    `scala-iso-country-i18n-ru`.native,
+    `scala-iso-country-i18n-zh`.js,
+    `scala-iso-country-i18n-zh`.jvm,
+    `scala-iso-country-i18n-zh`.native
   )
   .settings(
     crossScalaVersions := Nil,
@@ -82,9 +112,37 @@ lazy val `scala-iso-country-i18n-core` = crossProject(JSPlatform, JVMPlatform, N
     crossScalaVersions            := supportedScalaVersions
   )
 
+lazy val `scala-iso-country-i18n-ar` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-ar"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
 lazy val `scala-iso-country-i18n-bg` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   .crossType(CrossType.Pure)
   .in(file("modules/scala-iso-country-i18n-bg"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-cs` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-cs"))
   .dependsOn(`scala-iso-country-i18n-core`)
   .settings(
     Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
@@ -113,6 +171,118 @@ lazy val `scala-iso-country-i18n-en` = crossProject(JSPlatform, JVMPlatform, Nat
 lazy val `scala-iso-country-i18n-de` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   .crossType(CrossType.Pure)
   .in(file("modules/scala-iso-country-i18n-de"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-es` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-es"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-fr` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-fr"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-hi` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-hi"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-it` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-it"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-pl` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-pl"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-pt` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-pt"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-ru` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-ru"))
+  .dependsOn(`scala-iso-country-i18n-core`)
+  .settings(
+    Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
+    // IMPORTANT: Include all transitive dependencies explicitly, otherwise there will be strange runtime exceptions
+    libraryDependencies ++= Seq(
+      "org.scalactic" %%% "scalactic" % V.scalaTest % Test,
+      "org.scalatest" %%% "scalatest" % V.scalaTest % Test
+    ),
+    crossScalaVersions := supportedScalaVersions
+  )
+
+lazy val `scala-iso-country-i18n-zh` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
+  .crossType(CrossType.Pure)
+  .in(file("modules/scala-iso-country-i18n-zh"))
   .dependsOn(`scala-iso-country-i18n-core`)
   .settings(
     Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement,
