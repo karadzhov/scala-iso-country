@@ -2,11 +2,11 @@ import Dependencies._
 
 import org.typelevel.scalacoptions.ScalacOptions
 
-lazy val scala212Version = "2.12.19"
+lazy val scala212Version = "2.12.20"
 
-lazy val scala213Version = "2.13.13"
+lazy val scala213Version = "2.13.14"
 
-lazy val scala3Version = "3.3.3"
+lazy val scala3Version = "3.4.1"
 
 lazy val supportedScalaVersions = Seq(scala212Version, scala213Version, scala3Version)
 
@@ -39,51 +39,21 @@ ThisBuild / semanticdbVersion                              := scalafixSemanticdb
 lazy val root = project
   .in(file("."))
   .aggregate(
-    `scala-iso-country-core`.js,
-    `scala-iso-country-core`.jvm,
-    `scala-iso-country-core`.native,
-    `scala-iso-country-i18n-core`.js,
-    `scala-iso-country-i18n-core`.jvm,
-    `scala-iso-country-i18n-core`.native,
-    `scala-iso-country-i18n-ar`.js,
-    `scala-iso-country-i18n-ar`.jvm,
-    `scala-iso-country-i18n-ar`.native,
-    `scala-iso-country-i18n-bg`.js,
-    `scala-iso-country-i18n-bg`.jvm,
-    `scala-iso-country-i18n-bg`.native,
-    `scala-iso-country-i18n-cs`.js,
-    `scala-iso-country-i18n-cs`.jvm,
-    `scala-iso-country-i18n-cs`.native,
-    `scala-iso-country-i18n-en`.js,
-    `scala-iso-country-i18n-en`.jvm,
-    `scala-iso-country-i18n-en`.native,
-    `scala-iso-country-i18n-de`.js,
-    `scala-iso-country-i18n-de`.jvm,
-    `scala-iso-country-i18n-de`.native,
-    `scala-iso-country-i18n-es`.js,
-    `scala-iso-country-i18n-es`.jvm,
-    `scala-iso-country-i18n-es`.native,
-    `scala-iso-country-i18n-fr`.js,
-    `scala-iso-country-i18n-fr`.jvm,
-    `scala-iso-country-i18n-fr`.native,
-    `scala-iso-country-i18n-hi`.js,
-    `scala-iso-country-i18n-hi`.jvm,
-    `scala-iso-country-i18n-hi`.native,
-    `scala-iso-country-i18n-it`.js,
-    `scala-iso-country-i18n-it`.jvm,
-    `scala-iso-country-i18n-it`.native,
-    `scala-iso-country-i18n-pl`.js,
-    `scala-iso-country-i18n-pl`.jvm,
-    `scala-iso-country-i18n-pl`.native,
-    `scala-iso-country-i18n-pt`.js,
-    `scala-iso-country-i18n-pt`.jvm,
-    `scala-iso-country-i18n-pt`.native,
-    `scala-iso-country-i18n-ru`.js,
-    `scala-iso-country-i18n-ru`.jvm,
-    `scala-iso-country-i18n-ru`.native,
-    `scala-iso-country-i18n-zh`.js,
-    `scala-iso-country-i18n-zh`.jvm,
-    `scala-iso-country-i18n-zh`.native
+    `scala-iso-country-core`.js, `scala-iso-country-core`.jvm, `scala-iso-country-core`.native,
+    `scala-iso-country-i18n-core`.js, `scala-iso-country-i18n-core`.jvm, `scala-iso-country-i18n-core`.native,
+    `scala-iso-country-i18n-ar`.js, `scala-iso-country-i18n-ar`.jvm, `scala-iso-country-i18n-ar`.native,
+    `scala-iso-country-i18n-bg`.js, `scala-iso-country-i18n-bg`.jvm, `scala-iso-country-i18n-bg`.native,
+    `scala-iso-country-i18n-cs`.js, `scala-iso-country-i18n-cs`.jvm, `scala-iso-country-i18n-cs`.native,
+    `scala-iso-country-i18n-en`.js, `scala-iso-country-i18n-en`.jvm, `scala-iso-country-i18n-en`.native,
+    `scala-iso-country-i18n-de`.js, `scala-iso-country-i18n-de`.jvm, `scala-iso-country-i18n-de`.native,
+    `scala-iso-country-i18n-es`.js, `scala-iso-country-i18n-es`.jvm, `scala-iso-country-i18n-es`.native,
+    `scala-iso-country-i18n-fr`.js, `scala-iso-country-i18n-fr`.jvm, `scala-iso-country-i18n-fr`.native,
+    `scala-iso-country-i18n-hi`.js, `scala-iso-country-i18n-hi`.jvm, `scala-iso-country-i18n-hi`.native,
+    `scala-iso-country-i18n-it`.js, `scala-iso-country-i18n-it`.jvm, `scala-iso-country-i18n-it`.native,
+    `scala-iso-country-i18n-pl`.js, `scala-iso-country-i18n-pl`.jvm, `scala-iso-country-i18n-pl`.native,
+    `scala-iso-country-i18n-pt`.js, `scala-iso-country-i18n-pt`.jvm, `scala-iso-country-i18n-pt`.native,
+    `scala-iso-country-i18n-ru`.js, `scala-iso-country-i18n-ru`.jvm, `scala-iso-country-i18n-ru`.native,
+    `scala-iso-country-i18n-zh`.js, `scala-iso-country-i18n-zh`.jvm, `scala-iso-country-i18n-zh`.native
   )
   .settings(
     crossScalaVersions := Nil,
